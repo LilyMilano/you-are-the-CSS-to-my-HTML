@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+<h1>HTML Forms</h1>
+<!-- <form novalidate> -->
+<form>
+    <label for="name">Name:</label><br>
+    <input type="text" name="name" id="name" placeholder="Name" value="" required="true"><br>
+
+    <label for="lastname">Lastname:</label><br>
+    <input type="text" name="lastname" id="lastname" placeholder="Lastname" value="" required="true"><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" name="email" id="email" required="true"><br>
+
+    <label for="age">Age:</label><br>
+    <input type="number" name="age" id="age" step="any"><br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br><br>
+
+    <label>Favourite Music Genre</label><br>
+    <input type="checkbox" name="music" id="classic" value="classic">
+    <label for="classic">Classic</label><br>
+    <input type="checkbox" name="music" id="jazz" value="jazz">
+    <label for="jazz">Jazz</label><br>
+    <input type="checkbox" name="music" id="bachata" value="bachata">
+    <label for="bachata">Bachata</label>
+    <br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" name="password" id="password" required="true"><br><br>
+
+    <input type="submit" value="Send">
+    <input type="submit" formnovalidate="formnovalidate" value="Send without validation">
+</form>
+</body>
+
+</html>
