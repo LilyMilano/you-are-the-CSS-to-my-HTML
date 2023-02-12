@@ -1,0 +1,25 @@
+/* *{
+    background-color: #bc8034;
+    color: #2c666e;
+}
+
+#title {
+	color: #90323d !important;
+	text-align: center;
+}
+.center-element {
+	text-align: center;
+}
+.bigger-text {
+	font-size: 20px; 
+}
+*/
+
+h1, h2, p, div {
+    color: #2c666e;
+    /* text-align: center; */
+}
+
+p.center-element{
+    text-align: center;
+}
