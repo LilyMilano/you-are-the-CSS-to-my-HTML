@@ -1,0 +1,23 @@
+html{
+    background-color: ivory;
+}
+
+h1{
+    text-align: center;
+    color: #e63946;
+}
+div{
+    text-align: center;
+    padding: 10px;
+    border: 15px solid #457b9d;
+    margin: 0 auto;
+    background-color: #f1faee;
+    max-width: 300px;
+    max-height: 100px;
+    outline: 10px dotted #a8dadc;
+    outline-offset: 10px;
+    box-sizing: border-box;
+}
+/* p.inner{
+    margin: inherit;
+} */
