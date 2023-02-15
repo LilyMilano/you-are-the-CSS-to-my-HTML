@@ -1,0 +1,105 @@
+html {
+	background-color: ivory;
+}
+h1 {
+	text-align: center;
+}
+.red {
+	background-color: firebrick;
+}
+.pink {
+	background-color: hotpink;
+}
+.yellow {
+	background-color: gold;
+}
+.orange {
+	background-color: darkorange;
+}
+.purple {
+	background-color: blueviolet;
+}
+.green {
+	background-color: lime;
+}
+.blue {
+	background-color: turquoise;
+}
+.red,
+.pink,
+.purple {
+	color: white;
+}
+/* _______________________________________________ */
+
+.red_border {
+	border: 8px solid firebrick;
+}
+.pink_border {
+	border: 8px dashed rgb(255, 105, 180);
+}
+.yellow_border {
+	border: 8px double #ffd700;
+}
+.orange_border {
+	border: 8px dotted hsl(33, 100%, 50%);
+}
+.purple_border {
+	border: 8px solid blueviolet;
+}
+.green_border {
+	border: 8px solid lime;
+}
+.blue_border {
+	border: 8px solid turquoise;
+}
+/* _______________________________________________ */
+
+.dotted {
+	border-style: dotted;
+	border-width: 10px 8px 6px 4px;
+	border-color: hotpink lime gold firebrick;
+}
+.dashed {
+	border-style: dashed;
+	border-width: thick;
+	/* border-width: thin / medium / thick */
+	border-color: hsla(203, 39%, 44%, 0.5);
+}
+.solid {
+	border: solid firebrick;
+	border-width: 5px;
+	border-radius: 20px;
+}
+.double {
+	border: double blueviolet;
+	border-width: 10px 5px;
+}
+.groove {
+	border: 10px groove;
+	/* border-width: 10px;
+    border-style: groove; */
+}
+.ridge {
+	border: 10px ridge;
+}
+.inset {
+	border: 10px inset;
+}
+.outset {
+	border: 10px outset;
+}
+.borderless {
+	border: none;
+}
+.hidden {
+	border: hidden;
+}
+.mix {
+	border-style: dotted solid dashed double;
+}
+/* _______________________________________________ */
+.rounded {
+	border: 5px solid blueviolet;
+	border-radius: 20px 0px 10px 0px;
+}
