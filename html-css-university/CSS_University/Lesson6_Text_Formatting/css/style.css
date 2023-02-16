@@ -1,0 +1,26 @@
+h1 {
+	color: #ef476f;
+	/* background-color: beige; */
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px #ced4da;
+	letter-spacing: 3px;
+	word-spacing: 10px;
+	text-decoration: overline underline;
+}
+.box {
+	padding: 15px;
+	margin: auto;
+	width: 70%;
+	background-color: #219ebc;
+	color: white;
+	border-radius: 5px;
+}
+.text {
+	text-align: justify;
+	direction: ltr; /* default: left to right. Right to left = rtl */
+	text-indent: 30px;
+    line-height: 1.5; /* 1.2 by default (interlineado) */
+    white-space: normal; /* no-wrap*/
+    text-shadow: 1px 1px 2px #ced4da;
+}
