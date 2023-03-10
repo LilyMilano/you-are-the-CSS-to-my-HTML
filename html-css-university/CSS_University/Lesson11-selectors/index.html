@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS combined selectors</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>CSS combined selectors</h1>
+
+    <div class="container descendent">
+        Descending selectors at any internal level:
+        <p>First Line</p>
+        <p>Second Line</p>
+        <section>
+            <p>Third Line</p>
+        </section>
+    </div>
+
+    <div class="container child">
+        Child selectors, only direct childs (>):
+        <p>First Line</p>
+        <p>Second Line</p>
+        <section>
+            <p>Third Line</p>
+        </section>
+        <div>
+            <p>Fourth Line</p>
+        </div>
+        <p>Fifth Line</p>
+    </div>
+
+    <div class="container adjacent">
+        Adjacent selector:
+        <p>First Line</p>
+    </div>
+    <p>Second Line</p>
+    <p>Third Line</p>
+
+    <div class="container sibling">
+        Sibling Container:
+        <p>First Line</p>
+    </div>
+    <p>Second Line</p>
+    <p>Third Line</p>
+</body>
+
+</html>
