@@ -5,12 +5,29 @@ h1 {
 }
 div.container {
 	display: flex;
-    background-color: #560bad;
+	background-color: #560bad;
+	/* flex-direction: column-reverse; */
+	/* flex-direction: row;
+    flex-wrap: wrap; */
+	flex-flow: row wrap;
+
+	/* justify-content: flex-start; */
+	/* justify-content: flex-end; */
+	/* justify-content: space-between; */
+	/* justify-content: space-around; */
+    justify-content: center;
+	
+	height: 300px;
+    /* align-items: flex-start; */
+    align-items: center;
+    
+    /*  align content is like justify-content but vertical: */
+    align-content: center;
 }
 div.container > p {
-    background-color: #4895ef;
-    color: #f1faee;
-    margin: 20px;
-    padding: 15px;
-    font-size: 1.5em;
+	background-color: #4895ef;
+	color: #f1faee;
+	margin: 20px;
+	padding: 15px;
+	font-size: 1.5em;
 }
